@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PetBook - Registra a tu mascota</title>
+</head>
+
+<body>
+    <main>
+        <h1>PetBook</h1>
+        <p>
+            Una red social para mascotas te permite conectarte y compartir con otros dueños de mascotas y sus compañeros
+            peludos. Desde compartir fotos de tus mascotas hasta encontrar amigos perrunos cercanos para jugar juntos,
+            la
+            red social para mascotas te ayuda a mantenerte en contacto con la comunidad de amantes de los animales y sus
+            fieles compañeros.
+        </p>
+        <!--Dentro de un tag form pedile al usuario que ingrese el nombre de su mascota,
+             los años que tiene usando un input type number, un mail y un password.-->
+
+        <form action="https://formspree.io/f/xayzapqv" method="POST">
+            <label for="nombreMascota">Nombre de mascota:</label>
+            <input type="text" name="nombreMascota" id="nombreMascota" placeholder="Escriba nombre de mascota" required>
+            <label for="edadMascota">Edad de la mascota:</label>
+            <input type="number" name="edadMascota" id="edadMascota" placeholder="Escriba edad de mascota" required>
+            <label for="color">Color de la mascota:</label>
+            <input type="color" name="color" id="color" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Escriba su email" required>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" name="contraseña" id="contraseña" placeholder="Escriba su contraseña" required>
+            <button type="submit">Submit</button>
+        </form>
+
+    </main>
+</body>
+
+</html>
