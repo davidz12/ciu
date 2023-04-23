@@ -1,0 +1,48 @@
+* {
+  font-family: "Anuphan", sans-serif;
+  background-color: #e9d1a6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 45px;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links li {
+  margin-left: 20px;
+}
+
+.links a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.articulo{
+  text-align: center;
+}
+
+.lista{
+  text-align: left;
+  display:inline-block;
+  }
