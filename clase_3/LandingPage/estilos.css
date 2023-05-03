@@ -1,0 +1,19 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    width: 30%;
+    margin: 1.4%;
+}
+
+p{
+    margin-left: 1.4%;
+    font-size: 40px;
+    font-family: 'Ysabeau', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid red;
+    padding-bottom: 12px;
+    width: 40%;
+}

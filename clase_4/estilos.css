@@ -1,0 +1,39 @@
+header{
+    text-align: center;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+
+.contenedor-nav{
+    position: relative;
+    margin-left: 320px;
+    margin-top: 20px;
+}   
+
+.navbar-main{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.navbar-items{
+    display: flex;
+    list-style: none;
+}
+
+li{
+
+    margin-right: 10px;
+}
+
+.noticia {
+    padding: 15px;
+    border-bottom: 1px solid black;
+    margin: 15px;
+    position: relative;
+}
+
+.imagen{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
