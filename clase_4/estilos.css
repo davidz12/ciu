@@ -1,8 +1,27 @@
+*{
+    margin-left: 10px;
+}
 header{
     text-align: center;
     font-family: 'Ysabeau', sans-serif;
 }
 
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.img-noticia{
+    height: 100px;
+    position: relative;
+    left: 25%;
+}
+
+label{
+    margin-top: 10px;
+    
+}
 
 .contenedor-nav{
     position: relative;
@@ -36,4 +55,18 @@ li{
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.subtitulo{
+    text-align: center;
+}
+
+
+p{
+    margin-left: 25px;
+}
+
+
+.btn{
+    margin-top: 5px;
 }
