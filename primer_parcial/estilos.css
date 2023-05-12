@@ -1,0 +1,86 @@
+.btn{
+    color: #21A7BC
+}
+.btn-css:hover {
+    background-color: #32CD32;
+    color: black;
+  }
+
+body {
+  background-color: #2b0861;
+  padding-top: 70px;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.logo-nav {
+  width: 50%;
+}
+
+.topic-contenedor{
+    margin-top: 150px;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  background-color: #1c1c1c;
+  margin: 0 auto;
+}
+
+footer p {
+  color: #d3d3d3;
+}
+
+footer h5 {
+  color: #8b00ff;
+}
+
+.contenedor {
+    padding: 50px;
+}
+
+.location-icon {
+  display: inline-block;
+  margin-left: 10px; 
+}
+
+.sponsors {
+  margin-top: 100px;
+}
+
+.event-data {
+  width: 80%;
+  margin: auto;
+  border: 1px solid white;
+  padding: 20px;
+  border-bottom-color: white;
+}
+
+.section {
+  width: 325px;
+  display: inline-block; 
+  margin-left: 5px; 
+}
+
+.sections h5{
+    color: white;
+}
+.sections h6{
+    color: orange;
+}
+
+
+.modo-oscuro {
+    background-color: #1d1d1d;
+    color: #fff;
+}
+
+form label{
+    color: white;
+}
