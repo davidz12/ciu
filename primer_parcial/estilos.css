@@ -1,10 +1,12 @@
-.btn{
+.btn-css{
     color: #21A7BC
 }
 .btn-css:hover {
     background-color: #32CD32;
     color: black;
   }
+
+
 
 body {
   background-color: #2b0861;
